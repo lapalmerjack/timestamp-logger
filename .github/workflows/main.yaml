@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  PROJECT_ID: dwk-gke-450416
+  PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: dwk-cluster
   GKE_ZONE: europe-north1-b
   IMAGE: logging
