@@ -28,6 +28,7 @@ public class UrlHealthIndicator implements HealthIndicator {
         try {
            HttpRequest request = HttpRequest.newBuilder().uri(new URI( healthUrl)).version(HttpClient.Version.HTTP_2).GET().build();
           HttpResponse<Void> response = client.send(request, HttpResponse.BodyHandlers.discarding());
+            System.out.println("CHECKING");
 
             if (response.statusCode() >= 200 && response.statusCode() < 300) {
                 return Health.up().withDetail("pingpong", "Available").build();
