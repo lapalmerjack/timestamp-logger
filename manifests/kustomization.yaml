@@ -4,7 +4,7 @@ resources:
 - log-deployment
 images:
 - name: LOGGING/IMAGE
-  newName: gcr.io/dwk-gke-416915/backend:main-0d5844ab22796f0e571912d19da2962392192bbf
+  newName: gcr.io/dwk-gke-450416/logging
 - name: gcr.io/dwk-gke-450416/logging
   newName: gcr.io/dwk-gke-450416/logging
   newTag: main-1ca188bc77170083a94b157a7890f260a121b397
