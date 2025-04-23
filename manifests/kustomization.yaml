@@ -7,4 +7,4 @@ images:
   newName: gcr.io/dwk-gke-450416/logging
 - name: gcr.io/dwk-gke-450416/logging
   newName: gcr.io/dwk-gke-450416/logging
-  newTag: main-1ca188bc77170083a94b157a7890f260a121b397
+  newTag: main-03273345fe96fc9ef073fc211b58d0b4e3a36672
