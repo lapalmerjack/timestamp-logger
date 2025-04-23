@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: log-reader
-          image:
+          image: gcr.io/dwk-gke-450416/logging
           ports:
             - containerPort: 8080
           readinessProbe:
