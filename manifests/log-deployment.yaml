@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: log-reader
-          image: LOGGING/IMAGE
+          image:
           ports:
             - containerPort: 8080
           readinessProbe:
