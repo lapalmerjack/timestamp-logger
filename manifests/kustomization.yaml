@@ -1,7 +1,11 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- log-deployment
+- log-deployment.yaml
+- ingress.yaml
+- postgres-secrets.yaml
+- statefulset.yaml
+- backendconfig.yaml
 images:
 - name: gcr.io/dwk-gke-450416/logging
   newName: gcr.io/dwk-gke-450416/logging
