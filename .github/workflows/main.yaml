@@ -51,6 +51,10 @@ jobs:
           echo "🛰️ Current cluster context:"
           kubectl config current-context
           
+          kubectl config set-context --current --namespace=ping-pong-uuid   
+          
+          kubectl get pod
+          
           kubectl get namespace ping-pong-uuid || kubectl create namespace ping-pong-uuid  
 
       # Set up kustomize
