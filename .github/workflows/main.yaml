@@ -48,6 +48,9 @@ jobs:
       - name: Ensure pingpong-uuid namespace exists
         if: github.ref == 'refs/heads/main'
         run: |
+          echo "🛰️ Current cluster context:"
+          kubectl config current-context
+          
           kubectl get namespace ping-pong-uuid || kubectl create namespace ping-pong-uuid  
 
       # Set up kustomize
