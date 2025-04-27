@@ -6,4 +6,4 @@ namespace: ping-pong-uuid
 images:
 - name: gcr.io/dwk-gke-450416/logging
   newName: gcr.io/dwk-gke-450416/logging
-  newTag: main-092ec74a7b58994b8203bc733f73d91677f2c9d6
+  newTag: main-335809a62c25e363d9a6abb2db607ca835b99b2b
