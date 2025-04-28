@@ -8,4 +8,4 @@ resources:
 images:
 - name: gcr.io/dwk-gke-450416/logging
   newName: gcr.io/dwk-gke-450416/logging
-  newTag: main-d651e20210bbccda87179436cf404a6ccb3bb044
+  newTag: main-bbbce524afe9d6f9f06a54a7ed0711c4fad983a1
