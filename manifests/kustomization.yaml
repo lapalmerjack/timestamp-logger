@@ -3,8 +3,7 @@ kind: Kustomization
 resources:
 - log-deployment.yaml
 - ingress.yaml
-- postgres-secrets.yaml
-- statefulset.yaml
+- database-config.yaml
 - backendconfig.yaml
 images:
 - name: gcr.io/dwk-gke-450416/logging
